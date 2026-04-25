@@ -1,0 +1,13 @@
+dataset,nodes,edges,algorithm,time_ms,mem_mb,skipped,correctness_vs_dijkstra
+USA-road-d.BAY,321270,800172,Dijkstra,72.197,15,false,SELF
+USA-road-d.BAY,321270,800172,Duan,101.378,60,false,MATCH
+USA-road-d.BAY,321270,800172,Bellman-Ford,2561.388,2,false,MATCH
+USA-road-d.NW,1207945,2840208,Dijkstra,215.508,71,false,SELF
+USA-road-d.NW,1207945,2840208,Duan,228.215,212,false,MATCH
+USA-road-d.NW,1207945,2840208,Bellman-Ford,-1.000,-1,true,N/A
+USA-road-d.NE,1524453,3897636,Dijkstra,344.972,91,false,SELF
+USA-road-d.NE,1524453,3897636,Duan,304.337,220,false,MATCH
+USA-road-d.NE,1524453,3897636,Bellman-Ford,-1.000,-1,true,N/A
+USA-road-d.NY,264346,733846,Dijkstra,44.049,9,false,SELF
+USA-road-d.NY,264346,733846,Duan,48.948,48,false,MATCH
+USA-road-d.NY,264346,733846,Bellman-Ford,1871.183,2,false,MATCH
